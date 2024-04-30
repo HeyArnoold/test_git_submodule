@@ -15,7 +15,7 @@ public class DataForTests {
     public static final String[] DATE = randomUtils.setRandomDateBetween(1980, 2010);
     public static final String[] SUBJECTS = randomUtils.setRandomSubjects();
     public static final String[] HOBBIES = randomUtils.setRandomHobbies();
-    public static final String FILE_NAME = "testPicture.png";
+    public static final String FILE_NAME = "submoduyle/testPicture.png";
     public static final String CURRENT_ADDRESS = faker.address().streetAddress();
     public static final String STATE = randomUtils.setRandomState();
     public static final String CITY = randomUtils.setRandomCity(STATE);
