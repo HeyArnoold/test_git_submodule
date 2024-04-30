@@ -28,7 +28,7 @@ public class UITests extends TestBase {
                 .checkDate(DATE_OF_BIRTH_LINE, DATE)
                 .checkResult(SUBJECTS_LINE, SUBJECTS)
                 .checkResult(HOBBIES_LINE, HOBBIES)
-                .checkResult(PICTURE_LINE, FILE_NAME)
+                .checkResult(PICTURE_LINE, "testPicture.png")
                 .checkResult(ADDRESS_LINE, CURRENT_ADDRESS)
                 .checkResult(STATE_AND_CITY_LINE, STATE + " " + CITY);
     }

@@ -4,6 +4,8 @@ import com.codeborne.selenide.SelenideElement;
 import pages.components.CalendarComponents;
 import pages.components.ResultsTableComponent;
 
+import java.io.File;
+
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
@@ -83,7 +85,7 @@ public class PracticeForm {
     }
 
     public PracticeForm uploadPicture(String fileName) {
-        pictureInput.uploadFromClasspath(fileName);
+        pictureInput.uploadFile(new File(fileName));
 
         return this;
     }
