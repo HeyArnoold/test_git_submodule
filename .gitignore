@@ -37,7 +37,6 @@ bin/
 out/
 logs/
 target/
-submoduyle/
 .classpath
 .project
 .settings/org.eclipse.buildship.core.prefs
